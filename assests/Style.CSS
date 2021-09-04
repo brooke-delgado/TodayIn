@@ -1,7 +1,27 @@
-*h2 {
-    background-color: antiquewhite;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font: pink;
+.topnav, h1 {
+    background-color: pink;
+    color:black;
     text-align: center;
-  
+    width: 100%;
+}
+
+* {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sidebar {
+    margin:0;
+    padding:0;
+    width:200px;
+    background-color: pink;
+    position: fixed;
+    height:100%;
+    overflow: auto;
+}
+
+* button {
+    display: block;
+    padding: 10 px;
+
 }
