@@ -44,7 +44,7 @@
 <!---------Current conditions-->
 
 <div class="col-12 col-md-6">
-    <h4>Current Weather Conditions</h4>
+    <h4><span> Weather Conditions</span><h4>
     <div class="row" id="weather-conditions">
         <div class="col-6">
             <h5><span id="current"></span></h5>
@@ -55,24 +55,50 @@
     </div>
 </div>
    
-<!-----day containers to hold 5 day weather forecast---->
-<section class="row justify-content-around">
-<div class="container px-5 py-5">
-    <div class="row">
-        <div class="col mx-1">DAY 1</div>
-        <div class="col mx-1">DAY 2</div>
-        <div class="col mx-1">DAY 3</div>
-        <div class="col mx-1">DAY 4</div>
-        <div class="col mx-1">DAY 5</div>
-    </div>
-</div>
+<!-----day cards to hold 5 day weather forecast---->
 
-          
-          
-    
-          
-           
-          
+<h5 class="mt-4 mb-4">5 Day Forecast:</h5>
+<div class="card-deck">
+    <div id="day-1" class="card-content p-3">
+        <h5 class="card-date"></h5>
+        <img class="weather-img">
+        <p class= "temp"></p>
+        <p class="humidity"></p>
+    </div>        
+</div>
+<div class="card-deck">
+    <div id="day-2" class="card-content p-3">
+        <h5 class="card-date"></h5>
+        <img class="weather-img">
+        <p class= "temp"></p>
+        <p class="humidity"></p>
+    </div>        
+</div>
+<div class="card-deck">
+    <div id="day-3" class="card-content p-3">
+        <h5 class="card-date"></h5>
+        <img class="weather-img">
+        <p class= "temp"></p>
+        <p class="humidity"></p>
+    </div>        
+</div> 
+<div class="card-deck">
+    <div id="day-4" class="card-content p-3">
+        <h5 class="card-date"></h5>
+        <img class="weather-img">
+        <p class= "temp"></p>
+        <p class="humidity"></p>
+    </div>        
+</div> 
+<div class="card-deck">
+    <div id="day-5" class="card-content p-3">
+        <h5 class="card-date"></h5>
+        <img class="weather-img">
+        <p class= "temp"></p>
+        <p class="humidity"></p>
+    </div>        
+</div>    
+         
 
 <body>
 <script src="assests/script.js"></script>   
