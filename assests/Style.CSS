@@ -3,6 +3,7 @@
     color:black;
     text-align: center;
     width: 100%;
+ 
 }
 
 * {
@@ -10,16 +11,19 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.sidebar {
-    margin:0;
-    padding:0;
-    width:200px;
-    background-color: pink;
+.sidenav {
+    height: 100%;
+    width: 160px;
     position: fixed;
-    height:100%;
-    overflow: auto;
-}
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    background-color: pink;
+    overflow-x: hidden;
+    padding-top: 20px;
+}  
 
+    
 * button {
     display: block;
     padding: 10 px;
